@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products | Sweet Crumbs</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>Our Products</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <span class="cart">🛒 Cart: <span id="cart-count">0</span></span>
+  </nav>
+</header>
+
+<main class="product-grid">
+  <article class="product">
+    <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/easy_chocolate_cake_31070_16x9.jpg" alt="">
+    <h3>Chocolate Cake</h3>
+    <p>Rich and moist chocolate delight.</p>
+    <p>849.99KSH</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </article>
+
+  <article class="product">
+    <img src="https://www.rockrecipes.com/wp-content/uploads/2008/01/DSC_0221-4.jpg" alt="Fresh Bread">
+    <h3>Fresh Bread</h3>
+    <p>Warm, soft, and freshly baked.</p>
+    <p>250.00KSH</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </article>
+
+  <article class="product">
+    <img src="https://www.allrecipes.com/thmb/bAcMKLoYBrO3azYvQwKc3_Bxy0I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg" alt="">
+    <h3>Cupcakes</h3>
+    <p>Colorful and delicious treats.</p>
+    <p>400.00KSH</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </article>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
